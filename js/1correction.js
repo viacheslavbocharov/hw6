@@ -31,7 +31,7 @@ let userCity = prompt("What is your city?(in English)");
 let userSport = prompt("What is your favourite sport?(in English)");
 
 
-let userAge = new Date().getFullYear(); - parseInt(userYear);
+let userAge = new Date().getFullYear() - parseInt(userYear);
 
 
 let country;
